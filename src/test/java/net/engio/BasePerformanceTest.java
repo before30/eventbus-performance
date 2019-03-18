@@ -31,7 +31,8 @@ import java.util.concurrent.TimeUnit;
 public abstract class BasePerformanceTest {
 
     // change this to your local system settings (this is the directory of the github repository root)
-    private static final String ProjectDir = "/ext/dev/workspace/eventbus-performance/";
+    private static final String ProjectDir = "/tmp/";
+//    private static final String ProjectDir = "/ext/dev/workspace/eventbus-performance/";
 
 
     // for each event bus implementation there will be a corresponding wrapper and subclass of this test
